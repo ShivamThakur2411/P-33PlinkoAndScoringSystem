@@ -5,7 +5,6 @@ class Particle {
             restitution:0.4
         }
         this.radius = 10;
-      
         this.body = Bodies.circle(x, y, 10,options);       
         this.color=color(random(0, 255), random(0, 255), random(0, 255));
 
@@ -19,7 +18,6 @@ class Particle {
         push();
         translate(pos.x, pos.y);
         rotate(angle);
-        //imageMode(CENTER);
         noStroke();
         fill(this.color)
         ellipseMode(RADIUS);
