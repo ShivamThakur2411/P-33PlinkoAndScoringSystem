@@ -6,7 +6,6 @@
  
 var engine, world;
 var ground;
-var sideBar1,SideBar2;
 
 var particles = [];
 var plinkos = [];
