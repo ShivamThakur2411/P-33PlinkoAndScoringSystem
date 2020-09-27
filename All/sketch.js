@@ -53,7 +53,6 @@ function draw() {
 
   textSize(40)
  text("Score : "+ score,20,30);
-
  text("500",5,550);
  text("500",85,550);
  text("500",165,550);
